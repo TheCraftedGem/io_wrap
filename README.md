@@ -6,7 +6,7 @@ Creates a sigil i that returns an IO List
 
 name = "Bobby"
 
-~i(Hello, #{name}) == ["Hello, ", "Johnny"]
+~i(Hello, #{name}) == ["Hello, ", "Bobby"]
 
 This package was taken from Kalevala is a world building toolkit for text based games, written in Elixir by Eric Oestrich. 
 
