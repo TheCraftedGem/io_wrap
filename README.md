@@ -4,6 +4,10 @@ Creates a sigil i that returns an IO List
 
 ~i(Hello, Johnny) == ["Hello, Johnny"]
 
+name = "Bobby"
+
+~i(Hello, #{name}) == ["Hello, ", "Johnny"]
+
 This package was taken from Kalevala is a world building toolkit for text based games, written in Elixir by Eric Oestrich. 
 
 Here's a link to his code. https://github.com/oestrich/kalevala/blob/main/lib/kalevala/character/view.ex#L43-L85
